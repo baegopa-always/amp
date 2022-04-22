@@ -1,7 +1,6 @@
 import {
     Flex,
-    Grid,
-    View
+    Grid
   } from "@aws-amplify/ui-react";
 import './Login';
 import './HomeLeftSide';
@@ -18,13 +17,7 @@ export default function Home(){
         >
             <HomeLeftSide/>
         </Flex>
-    
-        <Flex
-        justifyContent="center"
-        id="right"
-        ><View>
             <LoginButton/>
-        </View></Flex>
       </Grid>
     )
 }

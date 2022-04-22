@@ -178,6 +178,11 @@ const formFields = {
       email: {
         autocomplete: "off"
       },
+      name:{
+        autocomplete: "off",
+        order:1,
+        placeholder: '사용자 이름'
+      },
       password: {
         labelHidden: true,
         isRequired: false,
